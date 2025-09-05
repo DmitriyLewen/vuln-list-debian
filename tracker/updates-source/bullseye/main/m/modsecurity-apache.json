@@ -1,0 +1,44 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libapache2-mod-security2"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e\u003e 11), apache2-dev, libxml2-dev (\u003e= 2.0.50-10), liblua5.1-0-dev, libcurl4-gnutls-dev, libpcre3-dev, pkg-config, libyajl-dev"
+  ],
+  "Checksums-Sha256": [
+    "8cf23c5ae866447e05710f987075a134cf7e13446cd16358212448fdcdc56b45 1968 modsecurity-apache_2.9.3-3+deb11u4.dsc 4192019d169d3f1dd82cc4714db6986df54c6ceb4ee1c8f253de78d1a6b62118 4307670 modsecurity-apache_2.9.3.orig.tar.gz 37fac1c1ac66d8418bbee41d9d598df2e517413e9e59223d5137887c7e3b5cfe 15568 modsecurity-apache_2.9.3-3+deb11u4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/updates/main/m/modsecurity-apache"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.modsecurity.org/"
+  ],
+  "Maintainer": [
+    "Alberto Gonzalez Iniesta \u003cagi@inittab.org\u003e"
+  ],
+  "Package": [
+    "modsecurity-apache"
+  ],
+  "Package-List": [
+    "libapache2-mod-security2 deb httpd optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "httpd"
+  ],
+  "Standards-Version": [
+    "4.2.1"
+  ],
+  "Version": [
+    "2.9.3-3+deb11u4"
+  ]
+}

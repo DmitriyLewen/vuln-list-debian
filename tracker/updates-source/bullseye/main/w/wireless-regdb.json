@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "wireless-regdb, wireless-regdb-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), openssl, python3, python3-m2crypto, python-is-python3, quilt"
+  ],
+  "Checksums-Sha256": [
+    "8aa2d5636ad865282ce52cdfe0edd4b83e6e21dba406a4b1ea5d4d96abb7cd11 2321 wireless-regdb_2025.02.20-1~deb11u1.dsc 57f8e7721cf5a880c13ae0c202edbb21092a060d45f9e9c59bcd2a8272bfa456 30900 wireless-regdb_2025.02.20.orig.tar.xz 4a163aab75f6840af8910acd625bb8927af7802beb1e70c173e38ce3469b6edd 20928 wireless-regdb_2025.02.20-1~deb11u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/updates/main/w/wireless-regdb"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb"
+  ],
+  "Maintainer": [
+    "Debian kernel team \u003cdebian-kernel@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "wireless-regdb"
+  ],
+  "Package-List": [
+    "wireless-regdb deb net optional arch=all wireless-regdb-udeb udeb debian-installer optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "linux-source, openssl, python3"
+  ],
+  "Uploaders": [
+    "Ben Hutchings \u003cbenh@debian.org\u003e, Romain Perier \u003cromain.perier@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/kernel-team/wireless-regdb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/kernel-team/wireless-regdb.git"
+  ],
+  "Version": [
+    "2025.02.20-1~deb11u1"
+  ]
+}

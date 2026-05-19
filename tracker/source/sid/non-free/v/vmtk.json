@@ -12,13 +12,13 @@
     "debhelper-compat (= 13), dh-sequence-python3, cmake, help2man, libexpat1-dev, libfftw3-dev, libfreetype-dev, libinsighttoolkit5-dev, libjpeg-dev, libpng-dev, libssl-dev, libtet-dev, libtiff-dev, libvtkgdcm-dev, libxext-dev, python3-dev, python3-joblib, python3-vtk9, uuid-dev"
   ],
   "Checksums-Sha256": [
-    "cd428b43994204b54ff747a5aec4042ed39f608e21680cf724f5db1da464a098 2644 vmtk_1.5.0~git20260410.ba7cf0f+dfsg1-5.dsc 68620338190a31a1357b70f18969635eb635a07fdcb8dcfbd52ca0330932c8a1 5365676 vmtk_1.5.0~git20260410.ba7cf0f+dfsg1.orig.tar.xz 2bdc623530159336f8a64c86cbe755e9cb3191455c536f0748a028049b01a92b 59316 vmtk_1.5.0~git20260410.ba7cf0f+dfsg1-5.debian.tar.xz"
+    "1714b8cd03575dffc3715bc3481c1ab2dee8d3f25ea001dd870966a314268f81 2644 vmtk_1.5.0~git20260410.ba7cf0f+dfsg1-7.dsc 68620338190a31a1357b70f18969635eb635a07fdcb8dcfbd52ca0330932c8a1 5365676 vmtk_1.5.0~git20260410.ba7cf0f+dfsg1.orig.tar.xz 5aac1d8a0921dd5b472535ef8a35b38482e5c78f8c4147e02ee7479daeb482e9 59108 vmtk_1.5.0~git20260410.ba7cf0f+dfsg1-7.debian.tar.xz"
   ],
   "Directory": [
     "pool/non-free/v/vmtk"
   ],
   "Files": [
-    "3a13b1709d327e1ba786d22988255e11 2644 vmtk_1.5.0~git20260410.ba7cf0f+dfsg1-5.dsc 373167bf35d9a6d08cc547eccec369c0 5365676 vmtk_1.5.0~git20260410.ba7cf0f+dfsg1.orig.tar.xz 3ee0d52ca77c2de561450121a67a4055 59316 vmtk_1.5.0~git20260410.ba7cf0f+dfsg1-5.debian.tar.xz"
+    "f799c84b1d2e8784ce82f1e3c374352c 2644 vmtk_1.5.0~git20260410.ba7cf0f+dfsg1-7.dsc 373167bf35d9a6d08cc547eccec369c0 5365676 vmtk_1.5.0~git20260410.ba7cf0f+dfsg1.orig.tar.xz 9f6542861e76ae253b427249345fa069 59108 vmtk_1.5.0~git20260410.ba7cf0f+dfsg1-7.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/science-team/vmtk.git"
   ],
   "Version": [
-    "1.5.0~git20260410.ba7cf0f+dfsg1-5"
+    "1.5.0~git20260410.ba7cf0f+dfsg1-7"
   ]
 }

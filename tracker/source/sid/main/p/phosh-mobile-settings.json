@@ -6,16 +6,16 @@
     "phosh-mobile-settings, libpms-1.0-common, libpms-1.0-0, libpms-dev, gir1.2-pms-1.0"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir \u003c!nocheck\u003e, appstream, dbus-daemon \u003c!nocheck\u003e, desktop-file-utils, feedbackd-common (\u003e= 0.0.4) \u003c!nocheck\u003e, gir1.2-adw-1-dev \u003c!nogir\u003e, gir1.2-gio-2.0-dev \u003c!nogir\u003e, gir1.2-gtk-4.0-dev \u003c!nogir\u003e, gnome-settings-daemon \u003c!nocheck\u003e, gobject-introspection (\u003e= 1.80) \u003c!nogir\u003e, gsettings-desktop-schemas \u003c!nocheck\u003e, gstreamer1.0-plugins-good, libadwaita-1-dev, libcellbroadcast-dev, libfeedback-dev, libgmobile-dev (\u003e= 0.4.0), libgnome-desktop-4-dev, libgsound-dev, libgtk-4-dev, libjson-glib-dev, libportal-dev, libportal-gtk4-dev, libpulse-dev, libsensors-dev, libxml2-utils, libyaml-dev, locales-all \u003c!nocheck\u003e, meson, phoc (\u003e= 0.47.0) \u003c!nocheck\u003e, phosh \u003c!nocheck\u003e, phosh-dev (\u003e= 0.40.0), python3-docutils \u003c!nodoc\u003e, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e, xwayland \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-gir \u003c!nocheck\u003e, appstream, dbus-daemon \u003c!nocheck\u003e, desktop-file-utils, feedbackd-common (\u003e= 0.0.4) \u003c!nocheck\u003e, gir1.2-adw-1-dev \u003c!nogir\u003e, gir1.2-gio-2.0-dev \u003c!nogir\u003e, gir1.2-gtk-4.0-dev \u003c!nogir\u003e, gnome-settings-daemon \u003c!nocheck\u003e, gobject-introspection (\u003e= 1.80) \u003c!nogir\u003e, gsettings-desktop-schemas \u003c!nocheck\u003e, gstreamer1.0-plugins-good, libaccountsservice-dev, libadwaita-1-dev, libcellbroadcast-dev, libfeedback-dev, libgmobile-dev (\u003e= 0.4.0), libgnome-desktop-4-dev, libgsound-dev, libgtk-4-dev, libjson-glib-dev, libportal-dev, libportal-gtk4-dev, libpulse-dev, libsensors-dev, libxml2-utils, libyaml-dev, locales-all \u003c!nocheck\u003e, meson, phoc (\u003e= 0.47.0) \u003c!nocheck\u003e, phosh \u003c!nocheck\u003e, phosh-dev (\u003e= 0.40.0), python3-docutils \u003c!nodoc\u003e, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e, xwayland \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "cc59138518b7fd6cf484eee6d9ae61a0cb5d0d21727848e9b042c683f3bdce50 3447 phosh-mobile-settings_0.54.0-2.dsc e57693afe0f4ab1c910b6bc2b68c6f44ba81584a772c35dff537d4a8a59597e7 475300 phosh-mobile-settings_0.54.0.orig.tar.xz 5fb98883dcd27a6c5f3e646ec3df34e7dd589edb24a5b4f6c73333be1d959c5b 833 phosh-mobile-settings_0.54.0.orig.tar.xz.asc ee17b75e6f22729d7f7035af5aee8d2ba9be5bb13b9052962a095387b8a50487 15280 phosh-mobile-settings_0.54.0-2.debian.tar.xz"
+    "6eee154fd35067793e2e242adb6f40513293463331074d02e422f93adbac6220 3471 phosh-mobile-settings_0.55.0-1.dsc a2bd5dfc1fdcd39ca0ab1897a49d87e89561f3d1f875c914a95ea67f74bd46f7 496480 phosh-mobile-settings_0.55.0.orig.tar.xz 8fa4552aaab078e243f37b22962ac3b2b43de9e0a89142f95b42f722eaf0aa24 833 phosh-mobile-settings_0.55.0.orig.tar.xz.asc 04055c0d034a9173eb906d597b09a0c66d9c433350c138851b7c371f20d8c1ea 15624 phosh-mobile-settings_0.55.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/phosh-mobile-settings"
   ],
   "Files": [
-    "4d81daee40e07543193936a100ab0845 3447 phosh-mobile-settings_0.54.0-2.dsc 54a768016300d0e73a11e912c2c025a9 475300 phosh-mobile-settings_0.54.0.orig.tar.xz d8393d99eaef36a416441319d44d8277 833 phosh-mobile-settings_0.54.0.orig.tar.xz.asc 8fffa867a1edb6ab129d027d90bc6f37 15280 phosh-mobile-settings_0.54.0-2.debian.tar.xz"
+    "76fa393be49e2ae6fe71282748bcbc29 3471 phosh-mobile-settings_0.55.0-1.dsc 5fce566d49f423d95834196922387fbe 496480 phosh-mobile-settings_0.55.0.orig.tar.xz 6be503a9dfefb45df2156d80e293d5c9 833 phosh-mobile-settings_0.55.0.orig.tar.xz.asc 8c7b5b65969b6341eaf5d30932d2b351 15624 phosh-mobile-settings_0.55.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/DebianOnMobile-team/phosh-mobile-settings.git"
   ],
   "Version": [
-    "0.54.0-2"
+    "0.55.0-1"
   ]
 }

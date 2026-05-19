@@ -6,16 +6,16 @@
     "xgalaga++"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libx11-dev, libxpm-dev"
+    "debhelper-compat (= 13), dh-sequence-cruft, libx11-dev, libxpm-dev"
   ],
   "Checksums-Sha256": [
-    "91aeceeeff05ec065c7a470ed692724c11a1fedeae9a41a0a224e5fc6e6ef3d5 1954 xgalaga++_0.9-3.dsc c8db4bb9808c1cbbd001533b08318f6ab76b877ab6ed313d977d6a8546cc7fc9 33292 xgalaga++_0.9.orig.tar.gz 547236206449a9eccafcd05bbe0927c39f565e8f185374ddc3e5dd94d20bf5ac 12676 xgalaga++_0.9-3.debian.tar.xz"
+    "dc02ee29bf7887a2c60f10e0eb22a620dff4adf1c0b1d06eb86b8fd466dce279 1972 xgalaga++_0.9-5.dsc c8db4bb9808c1cbbd001533b08318f6ab76b877ab6ed313d977d6a8546cc7fc9 33292 xgalaga++_0.9.orig.tar.gz 9c8cb950f4a546b5d16c1748b8c2f91c7b0628e8cc4fc713fdf35cbdf6c48925 13080 xgalaga++_0.9-5.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/x/xgalaga++"
   ],
   "Files": [
-    "8f2561394e72c59ee6b6ed197fd6d4d6 1954 xgalaga++_0.9-3.dsc 376e7c43dc19e0f3f9a4cf1a7cb32695 33292 xgalaga++_0.9.orig.tar.gz a3ff0ceb185ec69fddb8ea7039e39367 12676 xgalaga++_0.9-3.debian.tar.xz"
+    "8a466821457de566000539d942e0b320 1972 xgalaga++_0.9-5.dsc 376e7c43dc19e0f3f9a4cf1a7cb32695 33292 xgalaga++_0.9.orig.tar.gz 7d4a16ac9c585f42e23db33ea9093028 13080 xgalaga++_0.9-5.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "games"
   ],
   "Standards-Version": [
-    "4.1.3"
+    "4.7.4"
   ],
   "Uploaders": [
     "TANIGUCHI Takaki \u003ctakaki@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/games-team/xgalagapp.git"
   ],
   "Version": [
-    "0.9-3"
+    "0.9-5"
   ]
 }

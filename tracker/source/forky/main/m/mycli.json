@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3, python3-setuptools, python3-setuptools-scm"
   ],
   "Checksums-Sha256": [
-    "7441e04754de0135f62bfcf9deb4bff51a60c455b2c03c0a3af10f8ad2ad2271 1330 mycli_1.70.0-1.dsc 8154db155dc56f7edd6547718970d3d4907e7b8eb1de9906d3e870d6f40fc2cb 385868 mycli_1.70.0.orig.tar.xz e2489aa7c153883c1ad6465807216dc858a637fa375ea5f165d4c557ae947ed0 5968 mycli_1.70.0-1.debian.tar.xz"
+    "1312631f6c23ace9be7eed2107c8506ec9ec83f423b4e289dae4ae87fd8668e6 1330 mycli_1.72.1-1.dsc 2b32454654e7c6042dbb349cd7bb507dde30f1d34752574acb599c9b5a32bc05 388704 mycli_1.72.1.orig.tar.xz 89fed24bc5c6aa7a88ec589d817098513f9ef76dd7c4655ce37591c8df3200e4 5992 mycli_1.72.1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/mycli"
   ],
   "Files": [
-    "5e68560a13c9dd45a31249237985f25f 1330 mycli_1.70.0-1.dsc 836b66df6a72a66ec3521f0a7e15aa37 385868 mycli_1.70.0.orig.tar.xz dcab10aa9b48cd3dade235ed927641e8 5968 mycli_1.70.0-1.debian.tar.xz"
+    "6d75fe93263615dfc5c201a0ae4775fe 1330 mycli_1.72.1-1.dsc ac30cc1ab8d02a111a0e38db6537483b 388704 mycli_1.72.1.orig.tar.xz 97c0eb84832662f2916b0e93488f8a4d 5992 mycli_1.72.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://forgejo.debian.net/dbcli/mycli"
   ],
   "Version": [
-    "1.70.0-1"
+    "1.72.1-1"
   ]
 }

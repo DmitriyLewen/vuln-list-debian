@@ -6,16 +6,16 @@
     "r-cran-checkmate"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-backports"
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-backports, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "de6aa6cc14cbabe86d19379d9afce3e03248a9119aa311895e3acafc75ebc144 2329 r-cran-checkmate_2.3.2-1.dsc 7255732d6c2da51204128a910e8c0d05246324a0402fca4d0d99433af40a88e3 229874 r-cran-checkmate_2.3.2.orig.tar.gz c91d85c3e6df9e139a05673beb8d617316f30b658e0be6b94de47c809796573e 4052 r-cran-checkmate_2.3.2-1.debian.tar.xz"
+    "409628b2c9d09bb5a331fbaa29d4bb44a2b58f49b31839c617cceeded300ee38 2359 r-cran-checkmate_2.3.4-1.dsc 95e1068dee07d95c5e616dfd66e622cf245821acd358a77e790118c34ebd85ca 252516 r-cran-checkmate_2.3.4.orig.tar.gz e8d5b5ad166c128b5305ee2a9e2343995178eea33be11fb4f9d5c18082713c2d 3656 r-cran-checkmate_2.3.4-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-checkmate"
   ],
   "Files": [
-    "983cba114db74043cd061cf79a7636f4 2329 r-cran-checkmate_2.3.2-1.dsc 95849df2e80c38e37528a7dbbbbf31cc 229874 r-cran-checkmate_2.3.2.orig.tar.gz 23c0f3db55dc23b7db058b7719d6c548 4052 r-cran-checkmate_2.3.2-1.debian.tar.xz"
+    "590a8dd7ff73243c75ba8bc01215169b 2359 r-cran-checkmate_2.3.4-1.dsc 64da20583ae2453fe1c86df562eb031b 252516 r-cran-checkmate_2.3.4.orig.tar.gz 8630bbeef09060f8ff2f8dd434fc34c4 3656 r-cran-checkmate_2.3.4-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-r"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-checkmate.git"
   ],
   "Version": [
-    "2.3.2-1"
+    "2.3.4-1"
   ]
 }

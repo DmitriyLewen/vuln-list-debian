@@ -3,19 +3,19 @@
     "any"
   ],
   "Binary": [
-    "glew-utils, libglew-dev, libglew2.3"
+    "glew-utils, eglew-utils, libglew-common-dev, libglew-dev, libeglew-dev, libglew2.3, libeglew2.3"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), docbook-to-man, libegl1-mesa-dev, libx11-dev, libxi-dev, libxmu-dev, cmake"
+    "debhelper-compat (= 13), docbook-to-man, libegl1-mesa-dev, libx11-dev, libxi-dev, libxmu-dev, cmake, patchelf, rename"
   ],
   "Checksums-Sha256": [
-    "d30f863003938ff3b268fe6d7396bea9a8357dff2bef17c54e3d7cce85f53df0 2247 glew_2.3.1-6.dsc ca7a615e7c6290536530572984a011c9db9a499e963a38022f33edfda2b6fd17 240160857 glew_2.3.1.orig-auto.tar.gz 54d8aab2257284732788321391aa4f55f59196292323aaf692b22ae236b306a4 216034 glew_2.3.1.orig.tar.gz 38a554e68c59cb5b266297b3f8197e7a87e22d40d69711170e53af1801e3ef9e 33820 glew_2.3.1-6.debian.tar.xz"
+    "aac729c57400a3b0ceb0e72b7de789dfebca4a3b43c5ff0d322e13ca914a2880 2559 glew_2.3.1+dfsg2-5.dsc 60b0c2e48e9265d4511b16ec104a19c58baf966d9b6367a924a5216e9c7812d4 18527007 glew_2.3.1+dfsg2.orig-auto.tar.gz 54d8aab2257284732788321391aa4f55f59196292323aaf692b22ae236b306a4 216034 glew_2.3.1+dfsg2.orig.tar.gz a22f98c7e231304b6f803274f0b57132c2c5cf3428aed8ff31834813fd6a0e86 36544 glew_2.3.1+dfsg2-5.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/glew"
   ],
   "Files": [
-    "b1ba3dc162f24360ed2d5255d0d643b5 2247 glew_2.3.1-6.dsc 80c6301e0bf779c20f97a56b3f99c9fc 240160857 glew_2.3.1.orig-auto.tar.gz ca93565147fae2e3e9bf82538813e81d 216034 glew_2.3.1.orig.tar.gz 369972bf7d4a8710bbfbcaf93d2ce3fa 33820 glew_2.3.1-6.debian.tar.xz"
+    "3ce29a2713e795c37e34f2d61bcb1c6c 2559 glew_2.3.1+dfsg2-5.dsc bc220bd95b86d9cd07336a64ec4085b1 18527007 glew_2.3.1+dfsg2.orig-auto.tar.gz ca93565147fae2e3e9bf82538813e81d 216034 glew_2.3.1+dfsg2.orig.tar.gz f38d7662951634a173d1552c8b307414 36544 glew_2.3.1+dfsg2-5.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "glew"
   ],
   "Package-List": [
-    "glew-utils deb utils optional arch=any libglew-dev deb libdevel optional arch=any libglew2.3 deb libs optional arch=any"
+    "eglew-utils deb utils optional arch=any glew-utils deb utils optional arch=any libeglew-dev deb libdevel optional arch=any libeglew2.3 deb libs optional arch=any libglew-common-dev deb libdevel optional arch=any libglew-dev deb libdevel optional arch=any libglew2.3 deb libs optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/glew -b debian/latest"
   ],
   "Version": [
-    "2.3.1-6"
+    "2.3.1+dfsg2-5"
   ]
 }

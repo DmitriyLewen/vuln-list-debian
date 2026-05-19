@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.21~), golang-debian-mdosch-xmppsrv-dev (\u003e= 0.3.3~), golang-github-beevik-etree-dev (\u003e= 1.1.4~), golang-github-gabriel-vasile-mimetype-dev, golang-github-google-uuid-dev, golang-github-mattn-go-xmpp-dev (\u003e= 0.3.3~), golang-github-pborman-getopt-dev, golang-github-protonmail-go-crypto-dev, golang-github-protonmail-gopenpgp-v3-dev, ronn"
   ],
   "Checksums-Sha256": [
-    "cc98334a602f5204ff7d6ee4ebb22f0d61cd9d73ec26c89af8db4c3d98c7ac90 2510 go-sendxmpp_0.15.6-1.dsc 871fe6ec5e867408c1dfc4f84ad4d752e9a893bfa1b847daac5523d8b2fc55f8 47819 go-sendxmpp_0.15.6.orig.tar.gz 98821ccd712ac2fc61885870a62d5e6d9f98c8e169426294a984540ee846dbc4 3932 go-sendxmpp_0.15.6-1.debian.tar.xz"
+    "12a92f68a6567edbe855c28f4767e57b4ce2f72cca2f90e5e393d62412bf3793 2510 go-sendxmpp_0.15.8-1.dsc 2a5f6a801dff401fa71670e833caa5c86d6fa32a44f206968140b3a81e3f2464 49595 go-sendxmpp_0.15.8.orig.tar.gz 4ef02c0db5a7248d96d282d66edf4628fcfec4e292fc04ee6dc4daad288d0792 3940 go-sendxmpp_0.15.8-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/go-sendxmpp"
   ],
   "Files": [
-    "6c411a65a677ad29c48d9a9895a782f9 2510 go-sendxmpp_0.15.6-1.dsc 65d1708e158c6615e24acfbccbef6cfd 47819 go-sendxmpp_0.15.6.orig.tar.gz 49591cecb5825ff4d59c8e2511331a71 3932 go-sendxmpp_0.15.6-1.debian.tar.xz"
+    "e928b1df3f7467f3cb4ecced10d7f04f 2510 go-sendxmpp_0.15.8-1.dsc 54ba12898902107a2316b64e265861f8 49595 go-sendxmpp_0.15.8.orig.tar.gz 3ce109af5e7d92f1634129359e706f63 3940 go-sendxmpp_0.15.8-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/go-sendxmpp.git"
   ],
   "Version": [
-    "0.15.6-1"
+    "0.15.8-1"
   ]
 }

@@ -9,22 +9,22 @@
     "debhelper-compat (= 13), guile-3.0-dev, texinfo"
   ],
   "Checksums-Sha256": [
-    "6722014760f5e05940aeaeb2571b45745a2d58eb1fd90c26b0502aaa2b92271a 2279 guile-hoot_0.8.0-3.dsc d25676b2e9a030f83cfcc3b4293dff38508f02a83330f0d305b98648f256decc 385896 guile-hoot_0.8.0.orig.tar.xz 8cb921f13953b55c2d87cdc643e3d991073636be10bda5c2cba2d2fc30ad9aa5 5248 guile-hoot_0.8.0-3.debian.tar.xz"
+    "a30f73a66619414baa2e4f59911dc1e864be901d6a804e26442fb67a9fea33f9 2298 guile-hoot_0.9.0-1.dsc 3afb26566a695a0f4936b830713f14c286e3d3d55b2d4f39db70687029513384 397168 guile-hoot_0.9.0.orig.tar.xz d95bbcdf4329ee55f948659546ad8d4582f76dd8392df20f4f8e05341605da8b 4844 guile-hoot_0.9.0-1.debian.tar.xz"
   ],
   "Dgit": [
-    "9a41fcf9da9cbc2440cd5c34f0bf2ec24964f758 debian archive/debian/0.8.0-3 https://git.dgit.debian.org/guile-hoot"
+    "b4d9105cbcf92f1d15989562509953d9a05de7d8 debian archive/debian/0.9.0-1 https://git.dgit.debian.org/guile-hoot"
   ],
   "Directory": [
     "pool/main/g/guile-hoot"
   ],
   "Files": [
-    "bd1bc802bd426acf3393b5636b7579c8 2279 guile-hoot_0.8.0-3.dsc 32de70db8700e01aceaf0ff175606424 385896 guile-hoot_0.8.0.orig.tar.xz 87ef8c7a93d20909b720f8fed15b5455 5248 guile-hoot_0.8.0-3.debian.tar.xz"
+    "cfe42e87e908a47746e91ae4d6726793 2298 guile-hoot_0.9.0-1.dsc 24cd64df5a5d64ec98e2ccf393955573 397168 guile-hoot_0.9.0.orig.tar.xz 1ee9171a322ae1a5d84dcba7759f1524 4844 guile-hoot_0.9.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Git-Tag-Info": [
-    "tag=65e0eb0cb6d854dcfa9129ff503b56869f315970 fp=a3cc9c870b9d310abad4cf2f51722b08fe4745a2"
+    "tag=a7f26fc57cdc5de86ab52a11690aacb685c80ce9 fp=a3cc9c870b9d310abad4cf2f51722b08fe4745a2"
   ],
   "Git-Tag-Tagger": [
     "Simon Josefsson \u003csimon@josefsson.org\u003e"
@@ -39,7 +39,7 @@
     "guile-hoot"
   ],
   "Package-List": [
-    "guile-hoot deb lisp optional arch=any profile=!noguile"
+    "guile-hoot deb lisp optional arch=any profile=!noguile profile:v1=!noguile"
   ],
   "Priority": [
     "optional"
@@ -57,7 +57,7 @@
     "guile-3.0"
   ],
   "Uploaders": [
-    "Simon Josefsson \u003csimon@josefsson.org\u003e,"
+    "Simon Josefsson \u003csimon@josefsson.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/guile-hoot/"
@@ -66,6 +66,6 @@
     "https://salsa.debian.org/debian/guile-hoot.git"
   ],
   "Version": [
-    "0.8.0-3"
+    "0.9.0-1"
   ]
 }

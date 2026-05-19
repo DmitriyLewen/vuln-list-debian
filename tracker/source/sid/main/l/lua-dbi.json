@@ -6,16 +6,16 @@
     "lua-dbi-common, lua-dbi-sqlite3, lua-dbi-sqlite3-dev, lua-dbi-mysql, lua-dbi-mysql-dev, lua-dbi-postgresql, lua-dbi-postgresql-dev, lua-dbi-duckdb, lua-dbi-duckdb-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-lua, default-libmysqlclient-dev, libduckdb-dev, libsqlite3-dev, postgresql-server-dev-all"
+    "debhelper-compat (= 13), dh-lua, default-libmysqlclient-dev, libduckdb-dev [amd64 arm64 loong64 ppc64el riscv64], libsqlite3-dev, postgresql-server-dev-all"
   ],
   "Checksums-Sha256": [
-    "c85b1f949203781fdfb9b15a29e84cf23016b99b60250182835db46505a991e5 1980 lua-dbi_0.7.5-3.dsc d11990029946cf29ee33cdb563900ba8e105207c507b08887896e88e429d8429 39527 lua-dbi_0.7.5.orig.tar.gz c836c97c227cc491968ee837c725c3ccb73f87abbf49bd929ed8a59b70b54ebb 4840 lua-dbi_0.7.5-3.debian.tar.xz"
+    "48c401262afc3ea88f58fdbeb8c6eb02d89462ef117377c5b7f98ce499ed2259 2082 lua-dbi_0.7.5-6.dsc d11990029946cf29ee33cdb563900ba8e105207c507b08887896e88e429d8429 39527 lua-dbi_0.7.5.orig.tar.gz cf4c9b4f11967c7a6873568c95bab75af0fcd97a1d262cb8c81b589cc18e1d9f 5132 lua-dbi_0.7.5-6.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/l/lua-dbi"
   ],
   "Files": [
-    "98a1f1a8046ba201bc128ec0791b5f09 1980 lua-dbi_0.7.5-3.dsc 16dd0169ddedf6659dd841ba10d49125 39527 lua-dbi_0.7.5.orig.tar.gz 68a4939db78b98d58f220314455913f9 4840 lua-dbi_0.7.5-3.debian.tar.xz"
+    "bb4abb6c4827f593a5990c7ffd9c099f 2082 lua-dbi_0.7.5-6.dsc 16dd0169ddedf6659dd841ba10d49125 39527 lua-dbi_0.7.5.orig.tar.gz b92a8b17d5770a8f9a90c46c3e1d33ba 5132 lua-dbi_0.7.5-6.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "lua-dbi"
   ],
   "Package-List": [
-    "lua-dbi-common deb interpreters optional arch=all lua-dbi-duckdb deb interpreters optional arch=any lua-dbi-duckdb-dev deb libdevel optional arch=any lua-dbi-mysql deb interpreters optional arch=any lua-dbi-mysql-dev deb libdevel optional arch=any lua-dbi-postgresql deb interpreters optional arch=any lua-dbi-postgresql-dev deb libdevel optional arch=any lua-dbi-sqlite3 deb interpreters optional arch=any lua-dbi-sqlite3-dev deb libdevel optional arch=any"
+    "lua-dbi-common deb interpreters optional arch=all lua-dbi-duckdb deb interpreters optional arch=amd64,arm64,loong64,ppc64el,riscv64 lua-dbi-duckdb-dev deb libdevel optional arch=amd64,arm64,loong64,ppc64el,riscv64 lua-dbi-mysql deb interpreters optional arch=any lua-dbi-mysql-dev deb libdevel optional arch=any lua-dbi-postgresql deb interpreters optional arch=any lua-dbi-postgresql-dev deb libdevel optional arch=any lua-dbi-sqlite3 deb interpreters optional arch=any lua-dbi-sqlite3-dev deb libdevel optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/lua-team/lua-dbi.git"
   ],
   "Version": [
-    "0.7.5-3"
+    "0.7.5-6"
   ]
 }

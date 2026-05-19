@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-h5py \u003c!nocheck\u003e, python3-numpy \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-silx"
   ],
   "Checksums-Sha256": [
-    "1ae811b5063a5c2fd9d50d5f11a5ee3741e1793b541f04172a0f45ed575870c1 1965 python-ewoksdata_0.6.0~rc0-5.dsc 60b1ab7ade06bc474a0c56fa08fd05ef3337d7c733f9b09a9d4b62214daf46e9 19972 python-ewoksdata_0.6.0~rc0.orig.tar.bz2 605f658f560dfe91070795535895a8dcf60ac7fa102615608c7e544069189790 2976 python-ewoksdata_0.6.0~rc0-5.debian.tar.xz"
+    "4b3039089a9d119255539914279dbcea89ed278953d9905bf7dd089d95ebaf7d 2280 python-ewoksdata_2.2.0-2.dsc abef1dd96e68a6fc0d850b69d55a329c063b66cfaac598e80a7d76f39762d115 26996 python-ewoksdata_2.2.0.orig.tar.bz2 db2562f96c5bab34d3210f511ee012fd088291f230e936f9d81310e124c420fa 3356 python-ewoksdata_2.2.0-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-ewoksdata"
   ],
   "Files": [
-    "60469ef1306b1b8d1acfa9192695777c 1965 python-ewoksdata_0.6.0~rc0-5.dsc 1399f43a662411349050784e5d9cc886 19972 python-ewoksdata_0.6.0~rc0.orig.tar.bz2 a9239245eca201a8e2511eea42f337d4 2976 python-ewoksdata_0.6.0~rc0-5.debian.tar.xz"
+    "8dfbe9c992380367960df00dd40c44e3 2280 python-ewoksdata_2.2.0-2.dsc bcac085e6f106e9d7a2b64e76c070c7a 26996 python-ewoksdata_2.2.0.orig.tar.bz2 e601525cd6bcfb65a3039c1922c2c9d2 3356 python-ewoksdata_2.2.0-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "Debian PaN Maintainers \u003cdebian-pan-maintainers@alioth-lists.debian.net\u003e, Roland Mas \u003clolando@debian.org\u003e,"
+    "Debian PaN Maintainers \u003cdebian-pan-maintainers@alioth-lists.debian.net\u003e, Roland Mas \u003clolando@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-ewoksdata"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/python-ewoksdata.git"
   ],
   "Version": [
-    "0.6.0~rc0-5"
+    "2.2.0-2"
   ]
 }

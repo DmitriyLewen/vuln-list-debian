@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-puredata"
   ],
   "Checksums-Sha256": [
-    "a04053ee55863cac1b3d05d099cf2fdd1426a01929df46e662418bd6db2464c0 2123 pd-moonlib_0.7-3.dsc 99d45043019bc0a0a144c44c6f8bfc03989593627b0ff5acb83e0ce6c126128e 99415 pd-moonlib_0.7.orig.tar.gz 4f2680d202b99d8491ba85daf2b35c50211b3f3426d3810f6224d2352e1fee6d 7756 pd-moonlib_0.7-3.debian.tar.xz"
+    "76d16b3ba19c9f1a037239b5647b1e8785acf17dc4c5184f783a5aad24f3ef7b 2141 pd-moonlib_0.8.2-1.dsc 8658dea8a524b7800fa759cab8068e17203442308cbde0c1962f2219b16fbda4 118764 pd-moonlib_0.8.2.orig.tar.gz 5586c409c96ccc9ab8d6be3166bbab8cf4848779d2ba3f118e80e0dc3beb8c02 5488 pd-moonlib_0.8.2-1.debian.tar.xz"
   ],
   "Dgit": [
-    "df9e49d66d2cc7dceb0cf9e80a9672f311f12683 debian archive/debian/0.7-3 https://git.dgit.debian.org/pd-moonlib"
+    "3d7c814c56376de0466f4f83a90a07f77cacd560 debian archive/debian/0.8.2-1 https://git.dgit.debian.org/pd-moonlib"
   ],
   "Directory": [
     "pool/main/p/pd-moonlib"
   ],
   "Files": [
-    "94a28d1d8f69e1710ac8d943a533ae9e 2123 pd-moonlib_0.7-3.dsc d4f5912728e0eabd46aff631e62db9c5 99415 pd-moonlib_0.7.orig.tar.gz 171d8e9f6e62d2f881140b84b9dcafd9 7756 pd-moonlib_0.7-3.debian.tar.xz"
+    "744e87649367810fbb3ab701513e4daa 2141 pd-moonlib_0.8.2-1.dsc 74dc15f77ebc5589fe5a6a2b26ddee1b 118764 pd-moonlib_0.8.2.orig.tar.gz a0e1bfa8f88687576277e90b1b4732dd 5488 pd-moonlib_0.8.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +42,10 @@
     "sound"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.4"
   ],
   "Uploaders": [
-    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e,"
+    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/multimedia-team/pd/pd-moonlib"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/multimedia-team/pd/pd-moonlib.git"
   ],
   "Version": [
-    "0.7-3"
+    "0.8.2-1"
   ]
 }

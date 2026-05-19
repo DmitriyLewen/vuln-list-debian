@@ -9,13 +9,13 @@
     "cmake, debhelper-compat (= 13), libblas-dev \u003c!pkg.ggml.noblas\u003e, pkgconf, libvulkan-dev \u003c!pkg.ggml.novulkan\u003e, glslc \u003c!pkg.ggml.novulkan\u003e, spirv-headers \u003c!pkg.ggml.novulkan\u003e, pkg-rocm-tools (\u003e= 0.9.1~) \u003c!pkg.ggml.nohip\u003e, libamdhip64-dev (\u003e= 5.7.1-6+deb13u1) [amd64 arm64] \u003c!pkg.ggml.nohip\u003e, hipcc (\u003e= 7.0.2+dfsg-2) [amd64 arm64] \u003c!pkg.ggml.nohip\u003e, libhipblas-dev [amd64 arm64] \u003c!pkg.ggml.nohip\u003e, librocblas-dev [amd64 arm64] \u003c!pkg.ggml.nohip\u003e"
   ],
   "Checksums-Sha256": [
-    "9d933c4a26947ef0eb7cd9a4174bb368183a06a10b494aecc812e48c1df6f5d6 3050 ggml_0.10.2-1.dsc c91c47a2fece227524db0b146f6e4cda8f01c58de53a428a9dda7fe1e18cba44 2936988 ggml_0.10.2.orig.tar.gz 522503d5cee3cbd7617d950068dd6c65e46bb730424f8d6b4457ac451112e5ae 21872 ggml_0.10.2-1.debian.tar.xz"
+    "ec6e397bd3456abda0f14083214c0a243e956d4e33a9e7944707e9754399e0f4 3050 ggml_0.12.0-1.dsc f20447acce3731b96e031407c87b7dd39c4560cc1d68f3be9125e78ad8a88090 3062994 ggml_0.12.0.orig.tar.gz 56a5367b3487b94de29e021e571746e9f3efb238b37a05345ad40cb43b024350 21892 ggml_0.12.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/ggml"
   ],
   "Files": [
-    "500ce95b568679227223a66be15a1ce8 3050 ggml_0.10.2-1.dsc e037bbc93b95dc15727eb7ffd6de30c8 2936988 ggml_0.10.2.orig.tar.gz 9bdf01404668cbe77bf8cd355b973266 21872 ggml_0.10.2-1.debian.tar.xz"
+    "326f958429e37af2483e2229b1bbdb09 3050 ggml_0.12.0-1.dsc 075181488920bdb5f6446a0791c7032c 3062994 ggml_0.12.0.orig.tar.gz 638e96a55ed843ca899d253d3a07bc75 21892 ggml_0.12.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/deeplearning-team/ggml.git"
   ],
   "Version": [
-    "0.10.2-1"
+    "0.12.0-1"
   ]
 }

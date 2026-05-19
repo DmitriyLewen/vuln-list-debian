@@ -12,13 +12,13 @@
     "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.85) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-indexmap-2+std-dev (\u003e= 2.13.0) \u003c!nocheck\u003e, librust-serde-core-1+alloc-dev (\u003e= 1.0.228) \u003c!nocheck\u003e, librust-serde-core-1+std-dev (\u003e= 1.0.228) \u003c!nocheck\u003e, librust-serde-spanned-1+alloc-dev (\u003e= 1.1.1) \u003c!nocheck\u003e, librust-serde-spanned-1+serde-dev (\u003e= 1.1.1) \u003c!nocheck\u003e, librust-serde-spanned-1+std-dev (\u003e= 1.1.1) \u003c!nocheck\u003e, librust-toml-datetime-1+alloc-dev (\u003e= 1.1.1) \u003c!nocheck\u003e, librust-toml-datetime-1+serde-dev (\u003e= 1.1.1) \u003c!nocheck\u003e, librust-toml-datetime-1+std-dev (\u003e= 1.1.1) \u003c!nocheck\u003e, librust-toml-parser-1+alloc-dev (\u003e= 1.1.2) \u003c!nocheck\u003e, librust-toml-parser-1+std-dev (\u003e= 1.1.2) \u003c!nocheck\u003e, librust-toml-writer-1+alloc-dev (\u003e= 1.1.1) \u003c!nocheck\u003e, librust-toml-writer-1+std-dev (\u003e= 1.1.1) \u003c!nocheck\u003e, librust-winnow-dev (\u003c\u003c 2) \u003c!nocheck\u003e, librust-winnow-dev (\u003e= 0.7.13) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "42c10f5de8d9b8024e4ac58e64c9b0d2f1b09dc9642891e5c001ec780c92ef6d 3192 rust-toml_1.1.2-2.dsc 81f3d15e84cbcd896376e6730314d59fb5a87f31e4b038454184435cd57defee 56327 rust-toml_1.1.2.orig.tar.gz 6cee529de70380368a08028c1c94d1b561e90df481ad5c4e9a2bcd06ff32ea20 4596 rust-toml_1.1.2-2.debian.tar.xz"
+    "3e25813b397b55d7ccbe4e654c1eea955341529858d8443f3c36f2982ea9d2de 3192 rust-toml_1.1.2-4.dsc 81f3d15e84cbcd896376e6730314d59fb5a87f31e4b038454184435cd57defee 56327 rust-toml_1.1.2.orig.tar.gz 5823078297f7fde06885632efbe6a1ba52b22b7df17ea2ca53bc2044683fb3de 4684 rust-toml_1.1.2-4.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-toml"
   ],
   "Files": [
-    "508d0638f43016e660c38b74d2a2e559 3192 rust-toml_1.1.2-2.dsc 6c2332f8b7199706fc7c033779749240 56327 rust-toml_1.1.2.orig.tar.gz 7ef7af6d2f02a62c1996790179fed6c7 4596 rust-toml_1.1.2-2.debian.tar.xz"
+    "05256ff4ed1922636708858d16d33daf 3192 rust-toml_1.1.2-4.dsc 6c2332f8b7199706fc7c033779749240 56327 rust-toml_1.1.2.orig.tar.gz 7f1810b4f7f5f7c7eb117485a54442f7 4684 rust-toml_1.1.2-4.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/toml]"
   ],
   "Version": [
-    "1.1.2-2"
+    "1.1.2-4"
   ]
 }
